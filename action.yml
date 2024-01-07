@@ -1,5 +1,8 @@
 name: '"Tfvars concat" Action for GitHub Actions.'
 description: "Concatenate tfvars files in a single file of your choice."
+branding:
+  color: purple
+  icon: chevron-right
 inputs:
   tfvars-files-suffix:
     description: Suffix of tfvars files to concatenate.
